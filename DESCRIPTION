@@ -1,0 +1,15 @@
+Package: multinetwork
+Type: Package
+Title: Network Analysis for Teams
+Version: 0.11
+Date: 2015-08-12
+Author: Patrick E. Downes, Eean R. Crawford
+Maintainer: Patrick Downes <patrick.downes@smlr.rutgers.edu>
+Depends: R (>= 3.0.1), igraph (>= 0.6.5)
+Description: This has data formatting and basic network analysis procedures for
+    analyzing network structures of small groups and teams.
+License: GPL-2
+Collate: 'analyze.networks.R' 'build.networks.R' 'correlate.networks.R'
+        'dichotomize.networks.R' 'make.input.R'
+        'multinetwork-internal.R' 'multiplex.three.R' 'multiplex.two.R'
+        'symmetrize.networks.R'
